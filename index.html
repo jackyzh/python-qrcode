@@ -5,7 +5,7 @@ function loaded()
 {
     // alert("Beep!");
     // window.setTimeout(CloseMe, 1000);
-    window.setTimeout(function(){var ww = window.open(window.location, '_self')
+    window.setTimeout(function(){var ww = window.open(window.location, '_self'); ww.close(); }, 1000);
 }
 
 function CloseMe() 
